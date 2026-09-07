@@ -1,0 +1,15 @@
+[Global]
+Name=Dolphin SVN Plugin
+Comment=KDE Dolphin SVN Plugin
+
+[Event/svnSuccess]
+Name=SVN Operation Successful
+Comment=An SVN operation completed successfully
+Action=Popup
+Urgency=Low
+
+[Event/svnError]
+Name=SVN Operation Failed
+Comment=An SVN operation failed
+Action=Popup
+Urgency=Normal

@@ -1,0 +1,30 @@
+# This directory is the published project. Everything private lives one level
+# up in the working folder and is therefore out of reach without an exclude
+# rule. Only build products are excluded here.
+
+# Build products
+build/
+build-deb/
+release/
+testing/backend-tests/build/
+
+# CMake / Qt caches
+.qt/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# Editors, tools and operating systems
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+.kdev4/
+*.kdev4
+.cache/
+
+# Merge and patch leftovers
+*.orig
+*.rej

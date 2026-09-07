@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Id": "dolphinsvnplugin",
+        "Name": "SVN Integration",
+        "Description": "Provides SVN version control actions in Dolphin",
+        "MimeTypes": ["application/octet-stream", "inode/directory"],
+        "ServiceTypes": ["KFileItemAction/Plugin"],
+        "Version": "0.1",
+        "License": "GPL-2.0-or-later",
+        "Icon": "version-control"
+    }
+}

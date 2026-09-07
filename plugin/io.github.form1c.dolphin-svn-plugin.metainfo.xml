@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AppStream metadata. Software centres such as KDE Discover read the author,
+     the licence, the name and the summary from this file, not from the Debian
+     Maintainer field or the copyright file. Installed to /usr/share/metainfo/. -->
+<component type="addon">
+  <id>io.github.form1c.dolphin-svn-plugin</id>
+  <extends>org.kde.dolphin</extends>
+  <name>Dolphin SVN Plugin</name>
+  <summary>Subversion integration for the KDE Dolphin file manager</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <developer id="io.github.form1c">
+    <name>formic</name>
+  </developer>
+  <url type="homepage">https://github.com/form1c/Dolphin-SVN-Plugin</url>
+  <url type="bugtracker">https://github.com/form1c/Dolphin-SVN-Plugin/issues</url>
+  <description>
+    <p>
+      Adds Subversion actions to the Dolphin context menu and shows the working
+      copy state on the file and folder icons, in the style of TortoiseSVN.
+      Context menu actions cover update, commit, log, diff, blame, merge, the
+      repository browser and more.
+    </p>
+  </description>
+</component>

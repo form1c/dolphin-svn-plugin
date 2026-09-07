@@ -1,0 +1,7 @@
+{
+    "KPlugin": {
+        "Id": "svnoverlayplugin",
+        "Name": "SVN Overlay Plugin",
+        "Description": "Shows SVN status overlays on file icons in Dolphin"
+    }
+}
